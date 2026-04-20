@@ -171,9 +171,4 @@ app.post("/hotels/:hotelId", async (req, res) => {
   }
 });
 
-// const PORT = 3000;
-// app.listen(PORT, () => {
-//   console.log(`Hotel API server running on port ${PORT}`);
-// });
-
 module.exports = app;
